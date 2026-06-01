@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+data/
+word_bank.db
+.streamlit/secrets.toml
