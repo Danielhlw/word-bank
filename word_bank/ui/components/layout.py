@@ -10,6 +10,7 @@ PAGES = {
     "nouns": {"label": "Nouns", "icon": "📦", "desc": "Substantivos e pronomes"},
     "tense": {"label": "Tense Activity", "icon": "🕐", "desc": "Exemplos nos tempos verbais"},
     "yesno": {"label": "Yes/No", "icon": "💬", "desc": "Perguntas e respostas"},
+    "revision": {"label": "Revision", "icon": "📖", "desc": "Revisão: BE, WH, statements"},
 }
 
 

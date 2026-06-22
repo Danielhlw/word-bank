@@ -217,6 +217,82 @@ def apply_theme() -> None:
             color: var(--primary) !important;
             border-bottom: 2px solid var(--primary) !important;
         }
+
+        .revision-formula {
+            background: linear-gradient(135deg, #eef2ff, #e0e7ff);
+            border-left: 4px solid var(--primary);
+            border-radius: 8px;
+            padding: 0.75rem 1rem;
+            font-family: 'DM Sans', monospace;
+            font-weight: 600;
+            color: #312e81;
+            margin: 0.75rem 0;
+            font-size: 0.95rem;
+        }
+
+        .revision-be-card {
+            background: var(--surface-alt);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 1rem;
+            height: 100%;
+            text-align: center;
+        }
+
+        .revision-be-form {
+            display: block;
+            font-family: 'DM Serif Display', Georgia, serif;
+            font-size: 2rem;
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        .revision-be-tag {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1d4ed8;
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 0.15rem 0.5rem;
+            border-radius: 999px;
+            margin: 0.35rem 0;
+            font-family: 'DM Sans', sans-serif;
+        }
+
+        .revision-be-detail, .revision-be-topics {
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            text-align: left;
+            margin: 0.5rem 0 0 0;
+            line-height: 1.5;
+        }
+
+        .revision-wh-badge {
+            display: inline-block;
+            background: #ede9fe;
+            color: #6d28d9;
+            padding: 0.25rem 0.6rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            font-family: 'DM Sans', sans-serif;
+            margin: 0.2rem 0.25rem 0.2rem 0;
+        }
+
+        .revision-contraction-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border);
+            font-family: 'DM Sans', sans-serif;
+            font-size: 0.9rem;
+        }
+
+        .revision-contraction-short {
+            color: var(--primary);
+            font-weight: 600;
+        }
         </style>
         """,
         unsafe_allow_html=True,

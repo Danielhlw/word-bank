@@ -7,7 +7,7 @@ from word_bank.repositories import word_bank as repo
 from word_bank.services.seed import seed_from_excel
 from word_bank.ui.components.layout import render_hero, render_sidebar
 from word_bank.ui.theme import apply_theme
-from word_bank.ui.views import adjectives, nouns, tense, verbs, yesno
+from word_bank.ui.views import adjectives, nouns, revision, tense, verbs, yesno
 
 VIEWS = {
     "verbs": verbs.render,
@@ -15,6 +15,7 @@ VIEWS = {
     "nouns": nouns.render,
     "tense": tense.render,
     "yesno": yesno.render,
+    "revision": revision.render,
 }
 
 
